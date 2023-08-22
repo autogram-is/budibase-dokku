@@ -7,7 +7,7 @@ up a single Docker image that handles all of it in a single place.
 
 ```
 dokku apps:create budibase
-dokku storage:ensure-directory /var/lib/dokku/data/storage/budibase
+dokku storage:ensure-directory budibase
 dokku storage:mount budibase /var/lib/dokku/data/storage/budibase:/data
 ```
 
